@@ -61,8 +61,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/subpop/damask.git",
-                    "tag": "v0.2.0",
-                    "commit": "fba63559098e7cf457a00708400856d421d649cc"
+                    "tag": "v0.2.1",
+                    "commit": "c6e58c55ec07fda74b8fd006a6a0136af7327b90"
                 }
             ]
         }
