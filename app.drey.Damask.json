@@ -64,6 +64,10 @@
                     "url": "https://gitlab.gnome.org/subpop/damask.git",
                     "tag": "v0.2.2",
                     "commit": "5101bf4997e06699a6414615aa21dce24d3b191d"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-fix-Set-category-to-Utility.patch"
                 }
             ]
         }
