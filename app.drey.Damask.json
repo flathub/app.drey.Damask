@@ -58,6 +58,10 @@
             "name": "damask",
             "builddir": true,
             "buildsystem": "meson",
+            "config-opts": [
+                "-Dnasa_api_key=4pL9uuwf0xoBgvT9EJsbZh3xj2ucbfsIhXWXfzTc",
+                "-Dunsplash_access_key=lAVsJ6MPJzNgTih1Qr62-JP5dpO35GhY1o2VD6Rz2PI"
+            ],
             "sources": [
                 {
                     "type": "git",
