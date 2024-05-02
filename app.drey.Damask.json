@@ -72,6 +72,10 @@
                 {
                     "type": "patch",
                     "path": "0001-fix-Set-category-to-Utility.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-fix-Update-metainfo.patch"
                 }
             ]
         }
