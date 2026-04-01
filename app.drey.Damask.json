@@ -1,7 +1,7 @@
 {
     "app-id": "app.drey.Damask",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "damask",
     "finish-args": [
@@ -13,15 +13,10 @@
     ],
     "cleanup": [
         "/include",
+        "/lib/girepository-1.0",
         "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "/share/vala",
-        "*.la",
-        "*.a"
+        "/share/gir-1.0",
+        "/share/vala"
     ],
     "modules": [
         {
@@ -36,7 +31,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/flatpak/libportal",
-                    "tag": "0.9.1"
+                    "tag": "0.9.1",
+                    "commit": "8f5dc8d192f6e31dafe69e35219e3b707bde71ce"
                 }
             ]
         },
