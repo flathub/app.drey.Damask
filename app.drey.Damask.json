@@ -1,7 +1,7 @@
 {
     "app-id": "app.drey.Damask",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "command": "damask",
     "finish-args": [
@@ -11,31 +11,7 @@
         "--device=dri",
         "--socket=wayland"
     ],
-    "cleanup": [
-        "/include",
-        "/lib/girepository-1.0",
-        "/lib/pkgconfig",
-        "/share/gir-1.0",
-        "/share/vala"
-    ],
     "modules": [
-        {
-            "name": "libportal",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dbackend-gtk4=enabled",
-                "-Dbackend-gtk3=disabled",
-                "-Ddocs=false"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/flatpak/libportal",
-                    "tag": "0.9.1",
-                    "commit": "8f5dc8d192f6e31dafe69e35219e3b707bde71ce"
-                }
-            ]
-        },
         {
             "name": "damask",
             "builddir": true,
